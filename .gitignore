@@ -1,0 +1,58 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.db
+*.sqlite
+*.sqlite3
+*.bin
+*.pkl
+*.pickle
+# Media files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp3
+*.mp4
+
+# Gradio
+.gradio/
+gradio_cached_examples/
+
+# IDE specific files
+.idea/
+.vscode/
+.windsurf/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db

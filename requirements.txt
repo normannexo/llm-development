@@ -1,0 +1,37 @@
+# Core data processing and analysis
+pandas
+numpy
+openpyxl
+
+# Development environment
+jupyterlab
+python-dotenv
+
+# LangChain framework and extensions
+langchain
+langchain-core
+langchain-community
+langchain_chroma
+langchain-mistralai
+langchain-anthropic
+langgraph
+
+# LLM providers and API clients
+openai
+anthropic
+mistralai
+litellm==1.65.4
+
+# Vector databases and indexing
+llama-index
+
+# Agent frameworks
+smolagents
+
+# UI components
+gradio
+
+# Search and tools
+tavily-python
+helium
+selenium
