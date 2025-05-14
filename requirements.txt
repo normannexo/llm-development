@@ -35,3 +35,6 @@ gradio
 tavily-python
 helium
 selenium
+
+# graph drawing
+grandalf

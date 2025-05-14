@@ -27,6 +27,7 @@ build/
 .ipynb_checkpoints
 
 # Data files
+chroma_*/*
 *.db
 *.sqlite
 *.sqlite3
