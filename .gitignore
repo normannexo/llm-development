@@ -57,3 +57,6 @@ gradio_cached_examples/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Project specific
+5 MCP/papers/
