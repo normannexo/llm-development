@@ -17,7 +17,7 @@ MISTRAL_KEY = os.environ["MISTRAL_API_KEY"]
 #setup_telemetry(LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY)
 
 # Import the BasicAgent class from basicsmolagent.py
-model = create_anthropic_model(api_key=ANTHROPIC_KEY, model_id="claude-3-5-haiku-20241022")
+model = create_anthropic_model(api_key=ANTHROPIC_KEY, model_id="claude-3-7-sonnet-20250219")
 
 
 agent = create_code_agent(model=model, tools=[visit_webpage_tool, tavily_search_tool])

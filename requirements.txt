@@ -1,3 +1,5 @@
+markdownify
+requests
 # Core data processing and analysis
 pandas
 numpy
@@ -17,6 +19,7 @@ langchain-anthropic
 langgraph
 langgraph-checkpoint
 langgraph-checkpoint-sqlite
+langchain_tavily
 
 # LLM providers and API clients
 openai
@@ -24,20 +27,29 @@ anthropic
 mistralai
 litellm==1.65.4
 
+# observers
+langfuse
+smolagents[telemetry]
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+openinference-instrumentation-smolagents
+
 # Vector databases and indexing
 llama-index
 
 # Agent frameworks
 smolagents
-
+smolagents[telemetry]
 # UI components
 gradio
+chainlit
 
 # Search and tools
 tavily-python
 helium
 selenium
 arxiv
+wikipedia
 
 # graph drawing
 grandalf

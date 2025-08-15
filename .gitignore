@@ -42,10 +42,21 @@ chroma_*/*
 *.gif
 *.mp3
 *.mp4
+*.zip
+
+# datafiles
+*.csv
+*.xlsx
+*.sqlite
+*.sqlite3
+
 
 # Gradio
 .gradio/
 gradio_cached_examples/
+
+# Chainlit
+.chainlit/
 
 # IDE specific files
 .idea/
